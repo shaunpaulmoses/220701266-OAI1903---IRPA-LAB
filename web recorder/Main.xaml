@@ -1,0 +1,170 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1140,800.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,736" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Email" />
+      <Variable x:TypeArguments="x:String" Name="Password" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: New Tab - Google Chrome" sap:VirtualizedContainerService.HintSize="483.2,564" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" InteractionMode="DebuggerApi" ScopeGuid="b9a720f1-1383-4246-8d15-bfb2682044ce" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,272.8" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'https://onlinecourses.n…'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b9a720f1-1383-4246-8d15-bfb2682044ce" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="722, 628, 158, 158" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'https://onlinecourses.n…'" FullSelectorArgument="&lt;ctrl name='New Tab' role='document' /&gt;&lt;ctrl name='Artificial Intelligence' role='grouping' /&gt;&lt;ctrl name='Artificial Intelligence' role='link' /&gt;" FuzzySelectorArgument="&lt;ctrl name='New Tab' role='document' /&gt;&lt;ctrl name='Artificial Intelligence' role='grouping' /&gt;&lt;ctrl name='Artificial Intelligence' role='link' automationid='' check:text='https://onlinecourses.nptel.ac.in/noc24_cs88/preview' /&gt;" Guid="cbf26b64-b0ca-46d4-8eec-8006417f574d" InformativeScreenshot="dc33a663d6b27cd29643f047518662b7.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="e949aac3a6ca79c910e2555cd438d08e.png" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='New Tab - Google Chrome' /&gt;" Title="New Tab - Google Chrome" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Artificial Intelligence : Search Methods For Problem solving - Course" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" InteractionMode="DebuggerApi" ScopeGuid="47d89928-58fe-4a5e-8a28-039c29ad0f02" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_10">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'email'" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="47d89928-58fe-4a5e-8a28-039c29ad0f02" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://onlinecourses.nptel.ac.in/noc24_cs88/preview" DesignTimeRectangle="1465, 144, 292, 66" DesignTimeScaleFactor="1.399999976158142" ElementType="Text" FriendlyName="'email'" FullSelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='header' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='dropdown-toggle' parentid='header' tag='A' type='' aaname='220701266@rajalakshmi.edu.in                                         ' check:innerText='220701266@rajalakshmi.edu.in' /&gt;" Guid="664bfa9f-7699-49a1-9664-d49691f230f3" InformativeScreenshot="e11ef163a975647c7ac462114334df19.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Artificial Intelligence : Search Methods For Problem solving - Course' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'MY COURSES'" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="47d89928-58fe-4a5e-8a28-039c29ad0f02" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://onlinecourses.nptel.ac.in/noc24_cs88/preview" DesignTimeRectangle="1431, 291, 323, 59" DesignTimeScaleFactor="1.399999976158142" ElementType="Text" FriendlyName="'MY COURSES'" FullSelectorArgument="&lt;webctrl aaname='                                                                *' href='/mycourses' parentid='header' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                                                *' href='/mycourses' parentid='header' tag='A' type='' class='' check:innerText='MY COURSES' /&gt;" Guid="7d50bdb3-c1b0-4ed4-8508-7996edb8844b" InformativeScreenshot="ac8d020f4265e495c5bb73db8d452708.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Artificial Intelligence : Search Methods For Problem solving - Course' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'If already'" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="47d89928-58fe-4a5e-8a28-039c29ad0f02" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://swayam.gov.in/mycourses" DesignTimeRectangle="1032, 560, 424, 45" DesignTimeScaleFactor="1.399999976158142" ElementType="Button" FriendlyName="'If already'" FullSelectorArgument="&lt;webctrl idx='2' parentid='OngoingBlock' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl class='btn btn-primary-v2' parentid='OngoingBlock' tag='BUTTON' type='button' aaname='                       If already registered, click to check your payment status                   ' check:innerText='If already registered, click to check your payment status' /&gt;" Guid="f66fc11a-97e6-4da1-b082-1a07f011a20c" InformativeScreenshot="0b8d4b2ecc7e778ae1fef237573ac843.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SWAYAM' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '×'" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="47d89928-58fe-4a5e-8a28-039c29ad0f02" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://swayam.gov.in/mycourses" DesignTimeRectangle="1439, 208, 50, 70" DesignTimeScaleFactor="1.399999976158142" ElementType="Button" FriendlyName="'×'" FullSelectorArgument="&lt;webctrl id='honerclosebtn' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='honerclosebtn' tag='BUTTON' type='button' class='close' aaname='×                       ' check:innerText='×' /&gt;" Guid="ee4705f8-f2ea-4e2e-91d7-576a1bc065bc" InformativeScreenshot="d350ef02e7a031ea6319b21a2646e8c3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SWAYAM' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAACfElEQVRYR8XWXUhTcRzGcZVm2oJYtECL6EJYYRbihQXVReRNIgVBBEURCNFFCV0I3ggGFb0IFmEaQi9KiCB4ERSCVBjVMgJrxJJaIURQg5AcheR+fc/4b5yd/fbiJvbAB7bnnP2fXZ2tSET+K7VcSnqZJltrr/vQgaf4DjFmMYke7EGJ+UhS1C21dKR6e7cXA4hCcvAWDebjiahbamnLpt29dfgGycMVFJuj9C21NPHt7avGDKQAF81x+pZakqp9d1wIQBbBzgV/gY0H+k9CMojiFUYwZbp0/Av+ApWH7r+GZNAYu5HwuhgttmuaWnVLKyuPDHkgGUTMdlLouxz3xQXQpG2lFJaK48NbIFkcM7uJ0LnxFWEM4gTWmcvqllqubx7ZAMliHp1Ybc6PhfdrUdiDyHvqgQt/IDmIoAebzU7aaFt6SVaefvgIskCjaELhj2LX2dEGSJ4+4CgST0Er6pZaxtM6dhVSgDFUmNP0LbW0p+1JO6KQPE2jyjpK3VJLR5a1j+/CO0iegihXt9RSSdm55yXYj8eQPLSoW2qZJe7zL2vQiwgkR8/ULbXMMaWXJjxoRRiSxay6pZa2lHW+WYGDGETQem8uJULnhR+SiXPHklJYyrsmV+EwhvEbYtNhdpNCv81xn9O8tpVSWNw3Al8gacxhh9lNhM5nu0cT0rZSCov75vsLkAxm0AwPSlGPCWj3xg1oWymFZfmt4Br8hCyiRm0rpYiVxNU31QxZJC9QrG6ppUnJ7Y/XIAUKo4BH8d1PbYhC8jCNGnOSvqWWztwL1cMPydEcupH0b0ndUst06f9ch8sYxw/8heAXQhjCGSR+gu1Rt7Ry6UjRP91FihP3sC9QAAAAAElFTkSuQmCC" InformativeScreenshot="db87fa56db0652e65af4699eab30e9b7.jpg" Selector="&lt;html app='chrome.exe' title='Artificial Intelligence : Search Methods For Problem solving - Course' /&gt;" Title="Artificial Intelligence : Search Methods For Problem solving - Course" Url="https://onlinecourses.nptel.ac.in/noc24_cs88/preview" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
