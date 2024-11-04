@@ -1,0 +1,428 @@
+﻿blog titles
+
+"Platform
+Solutions
+Resources
+About
+Search
+Close
+
+Contact us
+
+Sign in
+
+Try UiPath Free"
+
+
+
+
+Platform
+"PlatformThe UiPath Business Automation Platform covers your automation needs across each step of the journey.ProductsSee what products we offer as part of the platform.Pricing Support Free trials and downloads PlatformThe UiPath Business Automation Platform covers your automation needs across each step of the journey.DISCOVERIdentify the highest-ROI opportunities for continuous process optimization and automation using the power of AI.Process miningTask miningCommunications miningIdea capture and managementAUTOMATERapidly build AI-powered automation that seamlessly collaborates with people and systems to transform every facet of work.UI and API automationLow-code developmentGenerative AI and experiencesIntelligent document processing & specialized AIProcess orchestrationOPERATEEstablish an enterprise-grade foundation to run and optimize a ​mission-critical automation program at high scale.Real-time and trend analyticsContinuous testingUnified management and governanceCloud-first flexibilityDiscover the UiPath Business Automation PlatformUiPath named a 6-time Leader in the Gartner® Magic Quadrant™ for Robotic Process AutomationDownload the reportProductsSee what products we offer as part of the platform.FEATUREDSome of our most popular products, and other products we think you would be interested in.Process MiningTest ManagerOrchestratorAutomation Cloud™ RobotsAssistantDEVELOPERThe developer’s toolbox for building AI-powered automations and apps across any technology.StudioIntegration ServiceAppsRobotsComputer VisionAIFrom specialized AI solutions to generative AI experiences—all in a single, enterprise-grade platform.Autopilot™Document UnderstandingCommunications MiningClipboard AIAI Center™See all our product offerings: All UiPath ProductsGenAI trained for document processing: Advancing business operations at scaleRead the blog"
+
+"Platform
+
+The UiPath Business Automation Platform covers your automation needs across each step of the journey."
+"Platform
+
+The UiPath Business Automation Platform covers your automation needs across each step of the journey."
+
+
+"Products
+
+See what products we offer as part of the platform."
+"Products
+
+See what products we offer as part of the platform."
+
+
+Pricing
+Support
+Free trials and downloads
+"Platform
+
+The UiPath Business Automation Platform covers your automation needs across each step of the journey.
+
+DISCOVER
+
+Identify the highest-ROI opportunities for continuous process optimization and automation using the power of AI.
+
+Process mining
+
+Task mining
+
+Communications mining
+
+Idea capture and management
+
+AUTOMATE
+
+Rapidly build AI-powered automation that seamlessly collaborates with people and systems to transform every facet of work.
+
+UI and API automation
+
+Low-code development
+
+Generative AI and experiences
+
+Intelligent document processing & specialized AI
+
+Process orchestration
+
+OPERATE
+
+Establish an enterprise-grade foundation to run and optimize a ​mission-critical automation program at high scale.
+
+Real-time and trend analytics
+
+Continuous testing
+
+Unified management and governance
+
+Cloud-first flexibility
+
+Discover the UiPath Business Automation Platform
+
+UiPath named a 6-time Leader in the Gartner® Magic Quadrant™ for Robotic Process Automation
+
+Download the report"
+Platform
+"The UiPath Business Automation Platform covers your automation needs across each step of the journey.
+
+DISCOVER
+
+Identify the highest-ROI opportunities for continuous process optimization and automation using the power of AI.
+
+Process mining
+
+Task mining
+
+Communications mining
+
+Idea capture and management
+
+AUTOMATE
+
+Rapidly build AI-powered automation that seamlessly collaborates with people and systems to transform every facet of work.
+
+UI and API automation
+
+Low-code development
+
+Generative AI and experiences
+
+Intelligent document processing & specialized AI
+
+Process orchestration
+
+OPERATE
+
+Establish an enterprise-grade foundation to run and optimize a ​mission-critical automation program at high scale.
+
+Real-time and trend analytics
+
+Continuous testing
+
+Unified management and governance
+
+Cloud-first flexibility
+
+Discover the UiPath Business Automation Platform"
+"DISCOVER
+
+Identify the highest-ROI opportunities for continuous process optimization and automation using the power of AI.
+
+Process mining
+
+Task mining
+
+Communications mining
+
+Idea capture and management"
+"DISCOVER
+
+Identify the highest-ROI opportunities for continuous process optimization and automation using the power of AI."
+Process mining
+Communications mining
+"AUTOMATE
+
+Rapidly build AI-powered automation that seamlessly collaborates with people and systems to transform every facet of work.
+
+UI and API automation
+
+Low-code development
+
+Generative AI and experiences
+
+Intelligent document processing & specialized AI
+
+Process orchestration"
+"AUTOMATE
+
+Rapidly build AI-powered automation that seamlessly collaborates with people and systems to transform every facet of work."
+UI and API automation
+Intelligent document processing & specialized AI
+"OPERATE
+
+Establish an enterprise-grade foundation to run and optimize a ​mission-critical automation program at high scale.
+
+Real-time and trend analytics
+
+Continuous testing
+
+Unified management and governance
+
+Cloud-first flexibility"
+"OPERATE
+
+Establish an enterprise-grade foundation to run and optimize a ​mission-critical automation program at high scale."
+Real-time and trend analytics
+Unified management and governance
+Discover the UiPath Business Automation Platform
+
+"UiPath named a 6-time Leader in the Gartner® Magic Quadrant™ for Robotic Process Automation
+
+Download the report"
+"UiPath named a 6-time Leader in the Gartner® Magic Quadrant™ for Robotic Process Automation
+
+Download the report"
+
+
+Products
+"See what products we offer as part of the platform.
+
+FEATURED
+
+Some of our most popular products, and other products we think you would be interested in.
+
+Process Mining
+
+Test Manager
+
+Orchestrator
+
+Automation Cloud™ Robots
+
+Assistant
+
+DEVELOPER
+
+The developer’s toolbox for building AI-powered automations and apps across any technology.
+
+Studio
+
+Integration Service
+
+Apps
+
+Robots
+
+Computer Vision
+
+AI
+
+From specialized AI solutions to generative AI experiences—all in a single, enterprise-grade platform.
+
+Autopilot™
+
+Document Understanding
+
+Communications Mining
+
+Clipboard AI
+
+AI Center™
+
+See all our product offerings: All UiPath Products"
+"FEATURED
+
+Some of our most popular products, and other products we think you would be interested in.
+
+Process Mining
+
+Test Manager
+
+Orchestrator
+
+Automation Cloud™ Robots
+
+Assistant"
+"FEATURED
+
+Some of our most popular products, and other products we think you would be interested in."
+Process Mining
+Automation Cloud™ Robots
+"DEVELOPER
+
+The developer’s toolbox for building AI-powered automations and apps across any technology.
+
+Studio
+
+Integration Service
+
+Apps
+
+Robots
+
+Computer Vision"
+"DEVELOPER
+
+The developer’s toolbox for building AI-powered automations and apps across any technology."
+Studio
+Robots
+"AI
+
+From specialized AI solutions to generative AI experiences—all in a single, enterprise-grade platform.
+
+Autopilot™
+
+Document Understanding
+
+Communications Mining
+
+Clipboard AI
+
+AI Center™"
+"AI
+
+From specialized AI solutions to generative AI experiences—all in a single, enterprise-grade platform."
+Autopilot™
+Clipboard AI
+See all our product offerings: All UiPath Products
+
+"GenAI trained for document processing: Advancing business operations at scale
+
+Read the blog"
+"GenAI trained for document processing: Advancing business operations at scale
+
+Read the blog"
+
+
+Solutions
+"WebinarsLearn best practices from industry experts.Customer storiesGather insight, read success stories, and more.By industryBanking & financial servicesHealthcareInsurancePublic sectorManufacturingAll industriesBy departmentSupply chainFinance & accountingHRQA / TestingContact centerAll departmentsBy technologyAmazon Web Services (AWS)Google CloudMicrosoftSAPTechnology solutions overviewThe Rise of Agentic Process AutomationExperts discuss the convergence of RPA and agentic AI (and what it means for the enterprise).Watch the replay"
+
+"Webinars
+
+Learn best practices from industry experts.
+
+Customer stories
+
+Gather insight, read success stories, and more."
+"Webinars
+
+Learn best practices from industry experts."
+"Webinars
+
+Learn best practices from industry experts."
+Webinars
+"Customer stories
+
+Gather insight, read success stories, and more."
+Customer stories
+"By industry
+
+Banking & financial services
+
+Healthcare
+
+Insurance
+
+Public sector
+
+Manufacturing
+
+All industries"
+By industry
+Banking & financial services
+Public sector
+
+"By department
+
+Supply chain
+
+Finance & accounting
+
+HR
+
+QA / Testing
+
+Contact center
+
+All departments"
+By department
+Supply chain
+QA / Testing
+
+"By technology
+
+Amazon Web Services (AWS)
+
+Google Cloud
+
+Microsoft
+
+SAP
+
+Technology solutions overview"
+By technology
+Amazon Web Services (AWS)
+SAP
+
+"The Rise of Agentic Process Automation
+
+Experts discuss the convergence of RPA and agentic AI (and what it means for the enterprise).
+
+Watch the replay"
+"The Rise of Agentic Process Automation
+
+Experts discuss the convergence of RPA and agentic AI (and what it means for the enterprise).
+
+Watch the replay"
+
+
+Resources
+"dive inAcademyLearn the skills of the future with free online automation training.DocumentationExplore product documentation and guides.EventsGet up close and personal with our people and products.Get StartedWhat is RPAAgentic AutomationAgentic AIAI and RPAGenerative AISpecialized AIWhat is citizen developmentWhat is process miningSAP automationUiPath BlogBecome an ExpertAcademyAcademic AllianceDigital CredentialsCertificationsCustomer StoriesEvents and webinarsDemos and videosWhite papersAnalyst reportsSee all resourcesGet SupportCustomer supportCustomer PortalDocumentationCommunityForumMarketplaceProfessional servicesFind a partnerSee the best of the best from FORWARD, on demandWatch now"
+
+"dive in
+
+Academy
+
+Learn the skills of the future with free online automation training.
+
+Documentation
+
+Explore product documentation and guides.
+
+Events
+
+Get up close and personal with our people and products."
+dive in
+"Academy
+
+Learn the skills of the future with free online automation training."
+Academy
+Documentation
+"Events
+
+Get up close and personal with our people and products."
+Events
+"Get Started
+
+What is RPA
+
+Agentic Automation
+
+Agentic AI
+
+AI and RPA
+
+Generative AI
+
+Specialized AI
+
+What is citizen development
+
+What is process mining
+
+SAP automation
+
+UiPath Blog"
