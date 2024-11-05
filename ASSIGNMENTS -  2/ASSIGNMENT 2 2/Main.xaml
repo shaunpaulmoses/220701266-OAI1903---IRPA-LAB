@@ -1,0 +1,235 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="866.4000000000001,2099.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="568,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="C:\Users\lbhar\Downloads\IPs.xlsx" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome What Is My IP Address - See Your Publi" sap:VirtualizedContainerService.HintSize="568,1956" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="d52198f9-a3a2-4576-83ed-b9afa81c86ad" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="534.4,1716" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="500.8,1654.4" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,1464" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="country" />
+                      <Variable x:TypeArguments="x:String" Name="region" />
+                      <Variable x:TypeArguments="x:String" Name="city" />
+                      <Variable x:TypeArguments="x:Int32" Name="currentindex" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Search for'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="433.6,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="d52198f9-a3a2-4576-83ed-b9afa81c86ad" Text="[CurrentRow(0).ToString + &quot;[k(Enter)]&quot;]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="whatismyipaddress.com/ip/102.177.65.198" CVScreenId="aaa84b27-55d4-4a69-80ed-e6cb8bc16ff2" ContentHash="Vjz1tRBfaEutZB57YMskRg" CvElementArea="619, 147, 434, 55" CvType="InputBox" DesignTimeRectangle="619, 147, 434, 56" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='search' class='search-field' placeholder='Enter Keywords or IP Address…' aaname='' /&gt;" Guid="147da3fd-05aa-47e7-b9b0-7f3aa3eb686d" InformativeScreenshot="438aa40c6f608477298c9d06e985b182.png" Reference="MgR6Q2TXlESJMI7c-5rIOA/I8eC1F-I80mzjKNlzn3qLQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='IP Address Lookup for 102.177.65.198 in Howick, South Africa' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="aaa84b27-55d4-4a69-80ed-e6cb8bc16ff2" CvElementArea="619, 147, 434, 55" CvType="InputBox" DesignTimeRectangle="620, 147, 433, 56" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9; &amp;#x9;' check:innerText='Search for:' /&gt;" Guid="44a58db1-dbf8-4969-b108-8251b480fea0" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NGetText DisplayName="Get Text 'Country'" sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="d52198f9-a3a2-4576-83ed-b9afa81c86ad" TextString="[country]" Version="V4">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="whatismyipaddress.com/ip/102.177.65.198" CVScreenId="c3495170-a5da-47ce-85d0-22c9ec5a1595" ContentHash="qYzFbbQ4TEarVxe4qpTGYw" CvTextArea="414, 782, 120, 20" CvType="AnyWordGroup" DesignTimeRectangle="415, 777, 121, 29" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='fl-post-1165' tag='SPAN' type='' class='' /&gt;" Guid="4e82d153-cc04-4d37-8694-2c1fdbc365c5" InformativeScreenshot="5e109b0ad55d7ef95c3f0e280853896c.png" Reference="MgR6Q2TXlESJMI7c-5rIOA/rntT9BnU3UCPWJAQZ2BdiA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='IP Address Lookup for 102.177.65.198 in Howick, South Africa' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="c3495170-a5da-47ce-85d0-22c9ec5a1595" CvTextArea="269, 782, 83, 25" CvTextArgument="Country:" CvType="Text" DesignTimeRectangle="271, 777, 144, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Country:' parentid='fl-post-1165' tag='SPAN' type='' class='' check:innerText='Country:' /&gt;" Guid="11ea6930-5c1c-42ed-a3e7-2cca0e807eac" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText DisplayName="Get Text 'State/Region'" sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="d52198f9-a3a2-4576-83ed-b9afa81c86ad" TextString="[region]" Version="V4">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="whatismyipaddress.com/ip/102.177.65.198" CVScreenId="b25a927b-d2da-4a9e-9c74-a653e491865b" ContentHash="vdZ0R42N6kGF9BRt4_TA9w" CvTextArea="414, 822, 143, 20" CvType="AnyWordGroup" DesignTimeRectangle="415, 817, 142, 29" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='fl-post-1165' tag='SPAN' type='' class='' /&gt;" Guid="0591810e-83b4-460d-86e7-a40cf4c5f516" InformativeScreenshot="5eb976de21a683c8f612959511b1fdce.png" Reference="MgR6Q2TXlESJMI7c-5rIOA/kwo7KH2Oj0WEy0sPe1_Agw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='IP Address Lookup for 102.177.65.198 in Howick, South Africa' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="b25a927b-d2da-4a9e-9c74-a653e491865b" CvTextArea="269, 822, 128, 25" CvTextArgument="State/Region:" CvType="Text" DesignTimeRectangle="271, 817, 144, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='State/Region:' parentid='fl-post-1165' tag='SPAN' type='' class='' check:innerText='State/Region:' /&gt;" Guid="bfab0d28-0fa8-48e7-bc12-90c85fc1cdb3" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText DisplayName="Get Text 'City'" sap:VirtualizedContainerService.HintSize="433.6,189.6" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="d52198f9-a3a2-4576-83ed-b9afa81c86ad" TextString="[city]" Version="V4">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="whatismyipaddress.com/ip/102.177.65.198" CVScreenId="de3f1694-bc7f-4eb6-a605-6347da3bc0af" ContentHash="yjOBi6SAgk63CuCNdTTiRA" CvTextArea="414, 862, 75, 20" CvType="AnyWordGroup" DesignTimeRectangle="415, 857, 72, 29" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='fl-post-1165' tag='SPAN' type='' class='' /&gt;" Guid="07777aee-3659-4fff-8a30-3309fd899a02" InformativeScreenshot="8bd944309094e9e7419e99626d09d131.png" Reference="MgR6Q2TXlESJMI7c-5rIOA/sGTkRrsmlk-CMuJC4ICuRA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='IP Address Lookup for 102.177.65.198 in Howick, South Africa' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="de3f1694-bc7f-4eb6-a605-6347da3bc0af" CvTextArea="269, 862, 42, 25" CvTextArgument="City:" CvType="Text" DesignTimeRectangle="271, 857, 144, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='City:' parentid='fl-post-1165' tag='SPAN' type='' class='' check:innerText='City:' /&gt;" Guid="1d1fe76d-6bc1-42c7-b014-2659eb4d9a20" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:Int32">[currentindex]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:Int32">[dt.Rows.IndexOf(CurrentRow) + 2]</InArgument>
+                      </Assign.Value>
+                    </Assign>
+                    <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[&quot;B&quot;+currentindex.ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="433.6,148" sap2010:WorkflowViewState.IdRef="WriteCell_2" SheetName="Sheet1" Text="[country]" WorkbookPath="C:\Users\lbhar\Downloads\IPs.xlsx" />
+                    <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[&quot;C&quot;+currentindex.ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="433.6,148" sap2010:WorkflowViewState.IdRef="WriteCell_3" SheetName="Sheet1" Text="[region]" WorkbookPath="C:\Users\lbhar\Downloads\IPs.xlsx" />
+                    <ui:WriteCell WorkbookPathResource="{x:Null}" Cell="[&quot;D&quot;+currentindex.ToString]" DisplayName="Write Cell Workbook" sap:VirtualizedContainerService.HintSize="433.6,139.2" sap2010:WorkflowViewState.IdRef="WriteCell_4" SheetName="Sheet1" Text="[city]" WorkbookPath="C:\Users\lbhar\Downloads\IPs.xlsx" />
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" ContentHash="iADzugzG5kWavRpfKsA-MA" IconBase64="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" InformativeScreenshot="63aab28924a45043f0b93c0c40705c5c.jpg" Reference="MgR6Q2TXlESJMI7c-5rIOA/DQVZ-KMu20OTdJ8IdEbE0w" Selector="&lt;html app='chrome.exe' title='What Is My IP Address - See Your Public Address - IPv4 &amp;amp; IPv6' /&gt;" Title="IP Address Lookup for 102.177.65.198 in Howick, South Africa" Url="https://whatismyipaddress.com/" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
