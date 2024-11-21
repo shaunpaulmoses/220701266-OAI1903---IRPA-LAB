@@ -1,0 +1,883 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1410.4,19744" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.BAF.Infrastructure.Entity</x:String>
+      <x:String>UiPath.BAF.Infrastructure.Enums</x:String>
+      <x:String>UiPath.BAF.Infrastructure.Telemetry</x:String>
+      <x:String>UiPath.BAF.Infrastructure</x:String>
+      <x:String>UiPath.BAF.Infrastructure.Connection</x:String>
+      <x:String>UiPath.AdobePdfServices.IntegrationService.Activities</x:String>
+      <x:String>UiPath.IntegrationCore.Activities</x:String>
+      <x:String>UiPath.BAF.Activities</x:String>
+      <x:String>UiPath.BAF.Infrastructure.Contracts</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Activities.Business.HtmlEditor</x:String>
+      <x:String>UiPath.Mail.Activities.Business</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.BAF.Infrastructure</AssemblyReference>
+      <AssemblyReference>UiPath.AdobePdfServices.IntegrationService.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="745.6,19679.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="ed_mod" />
+      <Variable x:TypeArguments="x:String" Name="questions" />
+      <Variable x:TypeArguments="x:String" Name="ques" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="683.2,295.2" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Select Editing Mode" OptionsString="PDF to Word;PDF to JPG;PDF to TEXT;WORD to PDF;PPT to PDF;Extract Questions" Title="Select Editing Mode">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[ed_mod]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <If Condition="[ed_mod=&quot;PDF to Word&quot;]" DisplayName=" if-word conversion" sap:VirtualizedContainerService.HintSize="683.2,3057.6" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="526.4,2874.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="pdf_name" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_2" IsPassword="False" Label="Enter pdf name" Title="enter pdf name">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[pdf_name]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Free PDF Converter - Totally Free, PDF to Word" sap:VirtualizedContainerService.HintSize="483.2,2503.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="45b8f0d1-57f1-4d39-8a66-ec435b463f87" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,2212" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DOCX PDF to Word'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45b8f0d1-57f1-4d39-8a66-ec435b463f87" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="54, 210, 240, 155" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'DOCX PDF to Word'" FullSelectorArgument="&lt;ctrl idx='10' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='push button' check:fulltext='DOCX&amp;#xD;&amp;#xA;PDF to Word' /&gt;" Guid="3266077c-aa10-4a0f-9206-b351ee8ab0c2" InformativeScreenshot="7dd29527a76971dfd411f26632895336.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="148, 268, 52, 25" ElementType="Text" FriendlyName="'DOCX'" FullSelectorArgument="&lt;ctrl name='DOCX' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='DOCX' role='text' automationid='' check:text='DOCX' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Files'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45b8f0d1-57f1-4d39-8a66-ec435b463f87" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="814, 72, 130, 75" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Add Files'" FullSelectorArgument="&lt;ctrl automationid='btnAddfiles' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnAddfiles' role='push button' check:fulltext='Add Files' /&gt;" Guid="34724a05-1704-46c6-b952-778a41f3caf7" InformativeScreenshot="d98bad4c7c7dd0d1c49f0eeb625e5fcf.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="854, 99, 70, 21" ElementType="Text" FriendlyName="'Add Files'" FullSelectorArgument="&lt;ctrl name='Add Files' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Add Files' role='text' automationid='' check:text='Add Files' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45b8f0d1-57f1-4d39-8a66-ec435b463f87" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="577, 48, 48, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Previous Locations'" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' check:text='Previous Locations' /&gt;" Guid="d8a99aee-e03e-4ee6-b679-3be24dfb206b" InformativeScreenshot="c60a4f7461d54f6a4611133bf41135c6.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'C:\Users\shaun\OneDrive…'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45b8f0d1-57f1-4d39-8a66-ec435b463f87" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="1, 1, 441, 26" DesignTimeScaleFactor="1.25" ElementType="ListItem" FriendlyName="'C:\Users\shaun\OneDrive…'" FullSelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' automationid='' check:text='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' /&gt;" Guid="21b44718-7a9e-4dd5-8c96-3a9fd0d4ecc0" InformativeScreenshot="c3f83a822411b85a66f561796630b5a3.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Edit'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45b8f0d1-57f1-4d39-8a66-ec435b463f87" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="245, 503, 411, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="64312774-4bec-48f7-8b1d-62caf7071a08" InformativeScreenshot="12c21a8519c01f4e50ca7b858e9ef1e1.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="45b8f0d1-57f1-4d39-8a66-ec435b463f87" Text="[pdf_name]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="245, 503, 411, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="8d38c0e5-0af2-40e4-9224-6e25a61c04ad" InformativeScreenshot="12c21a8519c01f4e50ca7b858e9ef1e1.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="45b8f0d1-57f1-4d39-8a66-ec435b463f87" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="1821, 722, 51, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl name='Start' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Start' role='text' automationid='' check:text='Start' /&gt;" Guid="528eb89d-c4e1-4737-8174-f41ef652dee5" InformativeScreenshot="d683ea48977513ede74e0a3d5aedbd32.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1789, 678, 115, 118" ElementType="Button" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl automationid='btnStart' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnStart' role='push button' check:fulltext='Start' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;conversion over&quot;]" />
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" FilePath="37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App" IconBase64="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" InformativeScreenshot="769ac6626877cd3db03e09d95ca7b51a.png" Selector="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" Title="Free PDF Converter - Totally Free, PDF to Word" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap:VirtualizedContainerService.HintSize="300,82.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Else>
+    </If>
+    <If Condition="[ed_mod=&quot;PDF to JPG&quot;]" sap:VirtualizedContainerService.HintSize="683.2,2839.2" sap2010:WorkflowViewState.IdRef="If_2">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="526.4,2656" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="pdf_to_jpg" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_3" IsPassword="False" Label="Enter PDF Name " Title="pdf_to_jpg">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[pdf_to_jpg]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Free PDF Converter - Totally Free, PDF to Word" sap:VirtualizedContainerService.HintSize="483.2,2284.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="0991b600-843d-430e-a562-30f5200abf43" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1993.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PDF to JPEG'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0991b600-843d-430e-a562-30f5200abf43" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="648, 218, 112, 113" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'graphic'" FullSelectorArgument="&lt;ctrl idx='3' role='graphic' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='graphic' /&gt;" Guid="90151150-92da-4da7-aefc-c7ac5b630ef4" InformativeScreenshot="7be7b941fbf1f383672ad9c684dff42d.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="650, 331, 108, 25" ElementType="Text" FriendlyName="'PDF to JPEG'" FullSelectorArgument="&lt;ctrl name='PDF to JPEG' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='PDF to JPEG' role='text' automationid='' check:text='PDF to JPEG' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Files'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0991b600-843d-430e-a562-30f5200abf43" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="WMNLcZKj40CJJ7ZjaS4vpA" DesignTimeRectangle="854, 99, 70, 21" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Add Files'" FullSelectorArgument="&lt;ctrl name='Add Files' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Add Files' role='text' automationid='' check:text='Add Files' /&gt;" Guid="6a2dac50-aeae-4dd7-b358-68b14eeaec50" InformativeScreenshot="9544f38f2b7c91efe115df530fe47f73.png" Reference="bf2ntpXJH0C4laHBsv4tdw/04yuWNy0rkepUfEybcVeTA" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="814, 72, 130, 75" ElementType="Button" FriendlyName="'Add Files'" FullSelectorArgument="&lt;ctrl automationid='btnAddfiles' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnAddfiles' role='push button' check:fulltext='Add Files' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0991b600-843d-430e-a562-30f5200abf43" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="ixRnEaQu8EOJRI6URZM2YQ" DesignTimeRectangle="577, 48, 48, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Previous Locations'" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' check:text='Previous Locations' /&gt;" Guid="e5256ef6-5be8-4340-be97-adc0012f30bf" InformativeScreenshot="80dbf9d554f36ad87b38f048b105f661.png" Reference="bf2ntpXJH0C4laHBsv4tdw/7TXT8Ob0sUWFQqNP6Wz8Jw" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'C:\Users\shaun\OneDrive…'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0991b600-843d-430e-a562-30f5200abf43" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="gasbMy9AzEmy8IPn5ZJ4Dg" DesignTimeRectangle="1, 1, 441, 26" DesignTimeScaleFactor="1.25" ElementType="ListItem" FriendlyName="'C:\Users\shaun\OneDrive…'" FullSelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' automationid='' check:text='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' /&gt;" Guid="18c564ce-601b-4905-b34e-9c8f7c2bfa60" InformativeScreenshot="80f1436c1622ba050510cdf8ad6400da.png" Reference="bf2ntpXJH0C4laHBsv4tdw/jWXCiOfkV0qAqWJqoGvQWg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" InteractionMode="SameAsCard" ScopeIdentifier="0991b600-843d-430e-a562-30f5200abf43" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="0991b600-843d-430e-a562-30f5200abf43" Text="[pdf_to_jpg+&quot;.pdf&quot;]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable ContentHash="thWjd_94sEeYQBQW-mVVOw" DesignTimeRectangle="245, 503, 411, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="01343d80-2853-4abf-b3c6-cfafb52d6020" InformativeScreenshot="1361af146eab1a1367e6bc852e554839.png" Reference="bf2ntpXJH0C4laHBsv4tdw/H_GgtmtaE0mTP2cJTWcz2w" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0991b600-843d-430e-a562-30f5200abf43" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="vKl9oc2gnkiqEUwxW2eY6w" DesignTimeRectangle="695, 537, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="19ad54a6-5a3d-4c69-ac91-540c5394ce8c" InformativeScreenshot="659f7b69cee62aec7b6473803dc215f1.png" Reference="bf2ntpXJH0C4laHBsv4tdw/BkrQOYmdp06pKm1W1w4sTg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0991b600-843d-430e-a562-30f5200abf43" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="1821, 722, 51, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl name='Start' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Start' role='text' automationid='' check:text='Start' /&gt;" Guid="6a90f081-7a1e-401a-bb97-a553a27da982" InformativeScreenshot="d5cd3e16191888af59710646a0185b46.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1789, 678, 115, 118" ElementType="Button" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl automationid='btnStart' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnStart' role='push button' check:fulltext='Start' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;Converted To JPG&quot;]" />
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" FilePath="37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App" IconBase64="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" InformativeScreenshot="769ac6626877cd3db03e09d95ca7b51a.png" Selector="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" Title="Free PDF Converter - Totally Free, PDF to Word" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_5" />
+      </If.Else>
+    </If>
+    <If Condition="[ed_mod=&quot;PDF to TEXT&quot;]" sap:VirtualizedContainerService.HintSize="683.2,2839.2" sap2010:WorkflowViewState.IdRef="If_3">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="526.4,2656" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="pdf_to_text" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_4" IsPassword="False" Label="Enter Pdf Name" Title="pdf_to_text">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[pdf_to_text]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Free PDF Converter - Totally Free, PDF to Word" sap:VirtualizedContainerService.HintSize="483.2,2284.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" ScopeGuid="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1993.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TXT PDF to Text'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="yFfrMoGhjEWgnZAwRnqLZQ" DesignTimeRectangle="849, 210, 240, 155" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'TXT PDF to Text'" FullSelectorArgument="&lt;ctrl idx='14' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='push button' check:fulltext='TXT&amp;#xD;&amp;#xA;PDF to Text' /&gt;" Guid="7922ad17-3259-48b7-b6c7-f584edb009a1" InformativeScreenshot="3ee9bc2b88547649d045b3e17f2cb104.png" Reference="bf2ntpXJH0C4laHBsv4tdw/qV63tPT6QkaE0rStPyYBoA" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="952, 268, 34, 25" ElementType="Text" FriendlyName="'TXT'" FullSelectorArgument="&lt;ctrl name='TXT' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='TXT' role='text' automationid='' check:text='TXT' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Files(1)'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="yX_WWQbKSEeqNe_X-3LSsw" DesignTimeRectangle="856, 62, 81, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Add Files(1)'" FullSelectorArgument="&lt;ctrl idx='2' name='Add Files' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' name='Add Files' role='text' check:text='Add Files' /&gt;" Guid="1a951302-b8ef-45e6-81a1-5e7dff5bc559" InformativeScreenshot="f34e46b88a99e1db62fe2886d391bafc.png" Reference="bf2ntpXJH0C4laHBsv4tdw/3xIJ-KfQsU6KFBVCakGyJA" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="816, 53, 141, 43" ElementType="Button" FriendlyName="'Add Files(1)'" FullSelectorArgument="&lt;ctrl automationid='btnCreatePDFAddfiles' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnCreatePDFAddfiles' role='push button' check:fulltext='Add Files' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="ixRnEaQu8EOJRI6URZM2YQ" DesignTimeRectangle="577, 48, 48, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Previous Locations'" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' check:text='Previous Locations' /&gt;" Guid="e5256ef6-5be8-4340-be97-adc0012f30bf" InformativeScreenshot="80dbf9d554f36ad87b38f048b105f661.png" Reference="bf2ntpXJH0C4laHBsv4tdw/7TXT8Ob0sUWFQqNP6Wz8Jw" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'C:\Users\shaun\OneDrive…'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="gasbMy9AzEmy8IPn5ZJ4Dg" DesignTimeRectangle="1, 1, 441, 26" DesignTimeScaleFactor="1.25" ElementType="ListItem" FriendlyName="'C:\Users\shaun\OneDrive…'" FullSelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' automationid='' check:text='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' /&gt;" Guid="18c564ce-601b-4905-b34e-9c8f7c2bfa60" InformativeScreenshot="80f1436c1622ba050510cdf8ad6400da.png" Reference="bf2ntpXJH0C4laHBsv4tdw/jWXCiOfkV0qAqWJqoGvQWg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" InteractionMode="SameAsCard" ScopeIdentifier="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Text="[pdf_to_text+&quot;.pdf&quot;]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable ContentHash="thWjd_94sEeYQBQW-mVVOw" DesignTimeRectangle="245, 503, 411, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="01343d80-2853-4abf-b3c6-cfafb52d6020" InformativeScreenshot="1361af146eab1a1367e6bc852e554839.png" Reference="bf2ntpXJH0C4laHBsv4tdw/H_GgtmtaE0mTP2cJTWcz2w" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="vKl9oc2gnkiqEUwxW2eY6w" DesignTimeRectangle="695, 537, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="19ad54a6-5a3d-4c69-ac91-540c5394ce8c" InformativeScreenshot="659f7b69cee62aec7b6473803dc215f1.png" Reference="bf2ntpXJH0C4laHBsv4tdw/BkrQOYmdp06pKm1W1w4sTg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cbcfb7e7-3d7d-4d6d-bbad-dfe7ad23def6" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="1789, 678, 115, 118" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl automationid='btnStart' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnStart' role='push button' check:fulltext='Start' /&gt;" Guid="744529b6-f3c0-4ed2-aaf8-29b2d62c3f52" InformativeScreenshot="e4c78c728fcd37e84be3dacb8afe373b.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1821, 722, 51, 30" ElementType="Text" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl name='Start' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Start' role='text' automationid='' check:text='Start' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;conversion To TEXT&quot;]" />
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 0, 0" ContentHash="ySH1d3VkQ0ezpXheq2XEnQ" FilePath="37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App" IconBase64="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" InformativeScreenshot="769ac6626877cd3db03e09d95ca7b51a.png" Reference="bf2ntpXJH0C4laHBsv4tdw/MwVGUp6fFEqehMYuov2T1g" Selector="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" Title="Free PDF Converter - Totally Free, PDF to Word" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_15" />
+      </If.Else>
+    </If>
+    <If Condition="[ed_mod=&quot;PPT to PDF&quot;]" sap:VirtualizedContainerService.HintSize="683.2,3016" sap2010:WorkflowViewState.IdRef="If_4">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="526.4,2832.8" sap2010:WorkflowViewState.IdRef="Sequence_16">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="ppt_pdf" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_5" IsPassword="False" Label="Enter File Name: " Title="PPT to PDF">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[ppt_pdf]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Free PDF Converter - Totally Free, PDF to Word" sap:VirtualizedContainerService.HintSize="483.2,2461.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" ScopeGuid="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,2170.4" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Create PDF'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="pGfc_xZy8EmEQqDXR5UY6Q" DesignTimeRectangle="584, 390, 240, 155" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Create PDF'" FullSelectorArgument="&lt;ctrl idx='20' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='push button' check:fulltext='Create PDF From Others ...' /&gt;" Guid="acbb39b0-452b-4a97-8b01-ee7f20a9cf7c" InformativeScreenshot="8f50ff0f3ee148a46c6040a6ebb97e60.png" Reference="bf2ntpXJH0C4laHBsv4tdw/n6vER00i_0mGuWuu3vHfUg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="630, 442, 148, 50" ElementType="Text" FriendlyName="'Create PDF'" FullSelectorArgument="&lt;ctrl name='Create PDF From Others ...' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Create PDF From Others ...' role='text' automationid='' check:text='Create PDF From Others ...' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PDF From PPT'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="6cOKQ3Yr9UmfxPMY-9M3Ew" DesignTimeRectangle="584, 210, 240, 155" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'PDF From PPT'" FullSelectorArgument="&lt;ctrl idx='23' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='push button' check:fulltext='PDF&amp;#xD;&amp;#xA;From PPT' /&gt;" Guid="425b4ce2-1409-410e-87a4-bec6bce60187" InformativeScreenshot="81463960e3e34ac1cb4b35ab9d4730c2.png" Reference="bf2ntpXJH0C4laHBsv4tdw/yubGi_3YN0Wav38MilcmbA" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="686, 268, 36, 25" ElementType="Text" FriendlyName="'PDF'" FullSelectorArgument="&lt;ctrl idx='3' name='PDF' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' name='PDF' role='text' check:text='PDF' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clear List'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="KrHaqTDj0UWtnR9BgXl46g" DesignTimeRectangle="982, 53, 140, 43" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Clear List'" FullSelectorArgument="&lt;ctrl automationid='btnCreatePDFClearList' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnCreatePDFClearList' role='push button' check:fulltext='Clear List' /&gt;" Guid="04df172b-563b-48d5-b261-2484b706dcf8" InformativeScreenshot="7ea5e663fa21037414b722f3c6fc1c5c.png" Reference="bf2ntpXJH0C4laHBsv4tdw/ESjVc9d1pkGhNpdUk97qvQ" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1022, 62, 80, 25" ElementType="Text" FriendlyName="'Clear List'" FullSelectorArgument="&lt;ctrl idx='2' name='Clear List' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' name='Clear List' role='text' check:text='Clear List' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Files(1)'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="yX_WWQbKSEeqNe_X-3LSsw" DesignTimeRectangle="856, 62, 81, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Add Files(1)'" FullSelectorArgument="&lt;ctrl idx='2' name='Add Files' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' name='Add Files' role='text' check:text='Add Files' /&gt;" Guid="1a951302-b8ef-45e6-81a1-5e7dff5bc559" InformativeScreenshot="f34e46b88a99e1db62fe2886d391bafc.png" Reference="bf2ntpXJH0C4laHBsv4tdw/3xIJ-KfQsU6KFBVCakGyJA" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="816, 53, 141, 43" ElementType="Button" FriendlyName="'Add Files(1)'" FullSelectorArgument="&lt;ctrl automationid='btnCreatePDFAddfiles' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnCreatePDFAddfiles' role='push button' check:fulltext='Add Files' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="ixRnEaQu8EOJRI6URZM2YQ" DesignTimeRectangle="577, 48, 48, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Previous Locations'" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' check:text='Previous Locations' /&gt;" Guid="e5256ef6-5be8-4340-be97-adc0012f30bf" InformativeScreenshot="80dbf9d554f36ad87b38f048b105f661.png" Reference="bf2ntpXJH0C4laHBsv4tdw/7TXT8Ob0sUWFQqNP6Wz8Jw" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'C:\Users\shaun\OneDrive…'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_34" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="gasbMy9AzEmy8IPn5ZJ4Dg" DesignTimeRectangle="1, 1, 441, 26" DesignTimeScaleFactor="1.25" ElementType="ListItem" FriendlyName="'C:\Users\shaun\OneDrive…'" FullSelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' automationid='' check:text='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' /&gt;" Guid="18c564ce-601b-4905-b34e-9c8f7c2bfa60" InformativeScreenshot="80f1436c1622ba050510cdf8ad6400da.png" Reference="bf2ntpXJH0C4laHBsv4tdw/jWXCiOfkV0qAqWJqoGvQWg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Text="[ppt_pdf+&quot;.ppt&quot;]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable ContentHash="thWjd_94sEeYQBQW-mVVOw" DesignTimeRectangle="245, 503, 411, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="01343d80-2853-4abf-b3c6-cfafb52d6020" InformativeScreenshot="1361af146eab1a1367e6bc852e554839.png" Reference="bf2ntpXJH0C4laHBsv4tdw/H_GgtmtaE0mTP2cJTWcz2w" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_35" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="vKl9oc2gnkiqEUwxW2eY6w" DesignTimeRectangle="695, 537, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="19ad54a6-5a3d-4c69-ac91-540c5394ce8c" InformativeScreenshot="659f7b69cee62aec7b6473803dc215f1.png" Reference="bf2ntpXJH0C4laHBsv4tdw/BkrQOYmdp06pKm1W1w4sTg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_36" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ea4da4aa-dfb7-46e4-bb1a-8c9a70052cba" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="1763, 715, 57, 34" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl idx='2' name='Start' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' name='Start' role='text' check:text='Start' /&gt;" Guid="bc88da82-0ae1-43ae-97fa-9ff8f9fb6d17" InformativeScreenshot="2062d3ee3e17b9ca24c3549d4359530d.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1734, 673, 115, 118" ElementType="Button" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl automationid='btnCreatePDFStart' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnCreatePDFStart' role='push button' check:fulltext='Start' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[&quot;Converted To PDF&quot;]" />
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 0, 0" ContentHash="ySH1d3VkQ0ezpXheq2XEnQ" FilePath="37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App" IconBase64="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" InformativeScreenshot="769ac6626877cd3db03e09d95ca7b51a.png" Reference="bf2ntpXJH0C4laHBsv4tdw/MwVGUp6fFEqehMYuov2T1g" Selector="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" Title="Free PDF Converter - Totally Free, PDF to Word" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_18" />
+      </If.Else>
+    </If>
+    <If Condition="[ed_mod=&quot;WORD to PDF&quot;]" sap:VirtualizedContainerService.HintSize="683.2,3561.6" sap2010:WorkflowViewState.IdRef="If_5">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="649.6,3378.4" sap2010:WorkflowViewState.IdRef="Sequence_19">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="word_pdf" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="606.4,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_6" IsPassword="False" Label="Enter WORD File Name" Title="word_pdf">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[word_pdf]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Free PDF Converter - Totally Free, PDF to Word" sap:VirtualizedContainerService.HintSize="606.4,3007.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" ScopeGuid="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="572.8,2716" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NHover DisplayName="Hover 'Create PDF'" sap:VirtualizedContainerService.HintSize="510.4,157.6" sap2010:WorkflowViewState.IdRef="NHover_1" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V3">
+                    <uix:NHover.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="356, 614, 148, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Create PDF'" FullSelectorArgument="&lt;ctrl name='Create PDF From Others ...' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Create PDF From Others ...' role='text' automationid='' check:text='Create PDF From Others ...' /&gt;" Guid="dd4e3b84-c4f8-43a1-b74c-15a13a4add02" InformativeScreenshot="89ab6d850635d606abb0f408924bf9fb.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="310, 562, 240, 155" ElementType="Button" FriendlyName="'Create PDF'" FullSelectorArgument="&lt;ctrl idx='20' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='push button' check:fulltext='Create PDF From Others ...' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NHover.Target>
+                  </uix:NHover>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Create PDF(1)'" sap:VirtualizedContainerService.HintSize="510.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_37" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="4IEgOtVUbkSpPos1o9MdkA" DesignTimeRectangle="356, 614, 148, 50" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Create PDF(1)'" FullSelectorArgument="&lt;ctrl name='Create PDF From Others ...' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Create PDF From Others ...' role='text' automationid='' check:text='Create PDF From Others ...' /&gt;" Guid="090b1b99-35bc-46fc-aef6-8009992918c6" InformativeScreenshot="fc32cdafd6a57e665a19b223edc46ffc.png" Reference="bf2ntpXJH0C4laHBsv4tdw/SM8JpPuY6UuocG0WvzRpmg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'From Word'" sap:VirtualizedContainerService.HintSize="510.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_38" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="OX0M-CRKY0OhnsRUjkP7sg" DesignTimeRectangle="118, 218, 112, 113" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'graphic'" FullSelectorArgument="&lt;ctrl idx='10' role='graphic' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='' role='graphic' /&gt;" Guid="366f9421-cd11-41d4-a4a6-5937eb5fa0fd" InformativeScreenshot="1545fae3dd5d6d20d914a297e1e9626c.png" Reference="bf2ntpXJH0C4laHBsv4tdw/UDZn1tFVZUSdBA8CCvv3wg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="124, 331, 100, 25" ElementType="Text" FriendlyName="'From Word'" FullSelectorArgument="&lt;ctrl name='From Word' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='From Word' role='text' automationid='' check:text='From Word' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Files'" sap:VirtualizedContainerService.HintSize="510.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_39" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="WMNLcZKj40CJJ7ZjaS4vpA" DesignTimeRectangle="854, 99, 70, 21" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Add Files'" FullSelectorArgument="&lt;ctrl name='Add Files' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Add Files' role='text' automationid='' check:text='Add Files' /&gt;" Guid="6a2dac50-aeae-4dd7-b358-68b14eeaec50" InformativeScreenshot="9544f38f2b7c91efe115df530fe47f73.png" Reference="bf2ntpXJH0C4laHBsv4tdw/04yuWNy0rkepUfEybcVeTA" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="814, 72, 130, 75" ElementType="Button" FriendlyName="'Add Files'" FullSelectorArgument="&lt;ctrl automationid='btnAddfiles' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnAddfiles' role='push button' check:fulltext='Add Files' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Previous Locations'" sap:VirtualizedContainerService.HintSize="510.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_40" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="ixRnEaQu8EOJRI6URZM2YQ" DesignTimeRectangle="577, 48, 48, 48" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Previous Locations'" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' check:text='Previous Locations' /&gt;" Guid="e5256ef6-5be8-4340-be97-adc0012f30bf" InformativeScreenshot="80dbf9d554f36ad87b38f048b105f661.png" Reference="bf2ntpXJH0C4laHBsv4tdw/7TXT8Ob0sUWFQqNP6Wz8Jw" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'C:\Users\shaun\OneDrive…'" sap:VirtualizedContainerService.HintSize="510.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_41" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="gasbMy9AzEmy8IPn5ZJ4Dg" DesignTimeRectangle="1, 1, 441, 26" DesignTimeScaleFactor="1.25" ElementType="ListItem" FriendlyName="'C:\Users\shaun\OneDrive…'" FullSelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Address' role='list' /&gt;&lt;ctrl name='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' role='list item' automationid='' check:text='C:\Users\shaun\OneDrive\Documents\UiPath\project 22' /&gt;" Guid="18c564ce-601b-4905-b34e-9c8f7c2bfa60" InformativeScreenshot="80f1436c1622ba050510cdf8ad6400da.png" Reference="bf2ntpXJH0C4laHBsv4tdw/jWXCiOfkV0qAqWJqoGvQWg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Edit'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="510.4,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Text="[word_pdf]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable ContentHash="thWjd_94sEeYQBQW-mVVOw" DesignTimeRectangle="245, 503, 411, 23" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="01343d80-2853-4abf-b3c6-cfafb52d6020" InformativeScreenshot="1361af146eab1a1367e6bc852e554839.png" Reference="bf2ntpXJH0C4laHBsv4tdw/H_GgtmtaE0mTP2cJTWcz2w" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <If Condition="[word_pdf=&quot;&quot;]" sap:VirtualizedContainerService.HintSize="510.4,761.6" sap2010:WorkflowViewState.IdRef="If_7">
+                    <If.Then>
+                      <Sequence sap:VirtualizedContainerService.HintSize="476.8,578.4" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="temp_fn" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="433.6,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;enter file name &quot;]" />
+                        <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="433.6,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_8" IsPassword="False" Label="Enter File Name" Title="file name">
+                          <ui:InputDialog.Result>
+                            <OutArgument x:TypeArguments="x:String">[temp_fn]</OutArgument>
+                          </ui:InputDialog.Result>
+                        </ui:InputDialog>
+                        <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[word_pdf]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">[temp_fn]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence sap2010:WorkflowViewState.IdRef="Sequence_32" />
+                    </If.Else>
+                  </If>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="510.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_42" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="vKl9oc2gnkiqEUwxW2eY6w" DesignTimeRectangle="695, 537, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="19ad54a6-5a3d-4c69-ac91-540c5394ce8c" InformativeScreenshot="659f7b69cee62aec7b6473803dc215f1.png" Reference="bf2ntpXJH0C4laHBsv4tdw/BkrQOYmdp06pKm1W1w4sTg" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Start'" sap:VirtualizedContainerService.HintSize="510.4,157.6" sap2010:WorkflowViewState.IdRef="NClick_54" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="62868cc6-82b0-400c-bc63-605dfa77ca10" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="1763, 715, 57, 34" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl name='Start' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Start' role='text' automationid='' check:text='Start' /&gt;" Guid="e94d271d-1c7e-4da1-9812-979a8be74a61" InformativeScreenshot="2062d3ee3e17b9ca24c3549d4359530d.png" ScopeSelectorArgument="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="1734, 673, 115, 118" ElementType="Button" FriendlyName="'Start'" FullSelectorArgument="&lt;ctrl automationid='btnCreatePDFStart' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='btnCreatePDFStart' role='push button' check:fulltext='Start' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 0, 0" ContentHash="ySH1d3VkQ0ezpXheq2XEnQ" FilePath="37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App" IconBase64="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" InformativeScreenshot="769ac6626877cd3db03e09d95ca7b51a.png" Reference="bf2ntpXJH0C4laHBsv4tdw/MwVGUp6fFEqehMYuov2T1g" Selector="&lt;wnd app='coollepdfconverter.exe' appid='37309CoolLeGetInc.FreePDFConverter-TotallyFreePDFt_g0y9d13zmhd68!App' title='Free PDF Converter - Totally Free, PDF to Word' /&gt;" Title="Free PDF Converter - Totally Free, PDF to Word" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_21" />
+      </If.Else>
+    </If>
+    <If Condition="[ed_mod=&quot;Extract Questions&quot;]" sap:VirtualizedContainerService.HintSize="683.2,3718.4" sap2010:WorkflowViewState.IdRef="If_6">
+      <If.Then>
+        <Sequence sap:VirtualizedContainerService.HintSize="526.4,3535.2" sap2010:WorkflowViewState.IdRef="Sequence_22">
+          <Sequence.Variables>
+            <Variable x:TypeArguments="x:String" Name="ques_pdf" />
+            <Variable x:TypeArguments="x:String" Name="opt" />
+            <Variable x:TypeArguments="x:String" Name="num" />
+            <Variable x:TypeArguments="x:String" Name="ques_ar" />
+          </Sequence.Variables>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,295.2" sap2010:WorkflowViewState.IdRef="InputDialog_9" IsPassword="False" Label="what do you need" OptionsString="only questions;questions and answers;answers" Title="select option">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[opt]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_10" IsPassword="False" Label="Enter No of Questions" Title="no of questions">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[num]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: ChatGPT" sap:VirtualizedContainerService.HintSize="483.2,1945.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_16" InteractionMode="DebuggerApi" ScopeGuid="4faf23e6-dab4-4f4f-9c75-3e28ace10409" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1728.8" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_58" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4faf23e6-dab4-4f4f-9c75-3e28ace10409" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://chatgpt.com/" ContentHash="NL_rEIxTBk2zLrX7IzWgaQ" DesignTimeRectangle="649, 561, 20, 28" DesignTimeScaleFactor="1.399999976158142" ElementType="Icon" FriendlyName="'PATH'" FullSelectorArgument="&lt;webctrl parentid='composer-background' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='composer-background' tag='path' type='' class='' aaname='' /&gt;" Guid="c4593922-e973-4746-b628-0d51df718cc8" InformativeScreenshot="3c4767b7ffd2b0563478f176fa497d4e.png" Reference="bf2ntpXJH0C4laHBsv4tdw/xYaiKjLZg0GTtEQ2kp4TKA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ChatGPT' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
+                            <uix:Target DesignTimeRectangle="636, 553, 45, 45" FriendlyName="'SPAN'" FullSelectorArgument="&lt;webctrl class='flex' parentid='composer-background' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='flex' parentid='composer-background' tag='SPAN' type='' aaname='' /&gt;" SearchSteps="FuzzySelector" />
+                            <uix:Target DesignTimeRectangle="946, 449, 411, 50" ElementType="Text" FriendlyName="'What can I help with?'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='' aaname='What can I help with?' check:innerText='What can I help with?' /&gt;" SearchSteps="FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload from computer'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_59" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4faf23e6-dab4-4f4f-9c75-3e28ace10409" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://chatgpt.com/" ContentHash="A5qldJ-g-0WykniTDdeGWA" DesignTimeRectangle="648, 707, 452, 62" DesignTimeScaleFactor="1.399999976158142" FriendlyName="'Upload from computer'" FullSelectorArgument="&lt;webctrl aaname='Upload from computer' aria-role='menuitem' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Upload from computer' aria-role='menuitem' tag='DIV' type='' class='flex items-center m-1.5 p-2.5 text-sm cursor-pointer focus-visible:outline-0 radix-disabled:pointer-events-none radix-disabled:opacity-50 group relative hover:bg-[#f5f5f5] focus-visible:bg-[#f5f5f5] radix-state-open:bg-[#f5f5f5] dark:hover:bg-token-main-surface-secondary dark:focus-visible:bg-token-main-surface-secondary rounded-md my-0 px-3 mx-2 dark:radix-state-open:bg-token-main-surface-secondary gap-2.5 py-3' check:innerText='Upload from computer' /&gt;" Guid="0dc22f84-3871-42d2-8c82-a7a39f9e7978" InformativeScreenshot="a6ce19c7ecd091a9003b9b1161a739bf.png" Reference="bf2ntpXJH0C4laHBsv4tdw/J9e-07hUtUKCTTbE9ihD6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ChatGPT' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="387.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_7" Text="[&quot;Select File&quot;]" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_63" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4faf23e6-dab4-4f4f-9c75-3e28ace10409" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable ContentHash="uiw8KJVZd0GzvzDcvHze4w" DesignTimeRectangle="694, 957, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="f7a5e48e-a33b-465f-bb36-979a54d58d77" InformativeScreenshot="cb45647fa8dc7b7915b110f41277a98d.png" Reference="bf2ntpXJH0C4laHBsv4tdw/TuylUFlpJE2xhOP_iXRNWw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'window.__oai_logHTML?wi…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_18" ScopeIdentifier="4faf23e6-dab4-4f4f-9c75-3e28ace10409" Text="[&quot;extract &quot;+opt.ToString+&quot; from this pdf.generate exactly &quot;+num]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="https://chatgpt.com/" ContentHash="qpiiEPSw1EG9lE43zJV1CA" DesignTimeRectangle="692, 597, 921, 56" DesignTimeScaleFactor="1.399999976158142" FriendlyName="'window.__oai_logHTML?wi…'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='composer-background' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='_prosemirror-parent_15ceg_1 text-token-text-primary max-h-[25dvh] max-h-52 overflow-auto default-browser' parentid='composer-background' tag='DIV' aaname='' check:text='window.__oai_logHTML?window.__oai_logHTML():window.__oai_SSR_HTML=window.__oai_SSR_HTML||Date.now()' /&gt;" Guid="d1455378-b48f-43a6-a640-8f2638cfbe6a" InformativeScreenshot="6277a5d69b4dd183720538ee0dd99783.png" Reference="bf2ntpXJH0C4laHBsv4tdw/57tfyMKa2k2eQYwgMYk-yw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ChatGPT' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <Delay Duration="00:00:07" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_14" />
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_16" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+                  <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_13" />
+                  <uix:NGetText DisplayName="Get Text 'Here are'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="4faf23e6-dab4-4f4f-9c75-3e28ace10409" TextString="[ques]" Version="V3">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="https://chatgpt.com/c/673f078d-a530-8003-b425-a635618d6a77" DesignTimeRectangle="681, 403, 997, 302" DesignTimeScaleFactor="1.399999976158142" FriendlyName="'Here are'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;article&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='markdown prose w-full break-words dark:prose-invert light' tag='DIV' aaname='' /&gt;" Guid="859784fe-d12a-46af-930e-82e7815e019d" InformativeScreenshot="67bf89e6ea84323b2a9d728ad480271f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ChatGPT' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="6a03930f119d52b4f9724aff1e11f35e.jpg" Selector="&lt;html app='chrome.exe' title='ChatGPT' /&gt;" Title="ChatGPT" Url="https://chatgpt.com/" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: Document1 - WPS Office" sap:VirtualizedContainerService.HintSize="483.2,843.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_17" ScopeGuid="778f54c8-b5c0-4715-a6b5-613999d8ead7" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,552" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'wps.exe Document1'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_21" ScopeIdentifier="778f54c8-b5c0-4715-a6b5-613999d8ead7" Text="[ques]" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable DesignTimeRectangle="559, 318, 627, 516" DesignTimeScaleFactor="1.25" FriendlyName="'wps.exe Document1'" Guid="bff06970-f6f7-4e8d-aa01-6127823f127d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAnMAAAIECAYAAAByl6h3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAmGSURBVHhe7dbBCcAgAARBC7VkezIE8goW4MIMHFwJO/bBWut7AADcbLzh9t+cc49x7DwAAC5yLLY35MQcAMD9xBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmGIDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAECYmAMACBNzAABhYg4AIEzMAQCEiTkAgDAxBwAQJuYAAMLEHABAmJgDAAgTcwAAYWIOACBMzAEAhIk5AIAwMQcAECbmAADCxBwAQJiYAwAIE3MAAGFiDgAgTMwBAISJOQCAMDEHABAm5gAAwsQcAEDW3g/KQCPVp8OfCAAAAABJRU5ErkJggg==" InformativeScreenshot="93b450e111adf04b2485b97c8d77ed24.png" ScopeSelectorArgument="&lt;wnd app='wps.exe' appid='ZhuhaiKingsoftOfficeSoftw.WPSOffice2019_924xes6e8q1tw!WPSOffice2019' title='Document1 - WPS Office' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="0, 190, 1829, 800" ElementType="InputBox" FriendlyName="'DocView'" FullSelectorArgument="&lt;wnd cls='_WwG' title='DocView' /&gt;" FuzzySelectorArgument="&lt;wnd cls='_WwG' title='DocView' /&gt;" SearchSteps="Selector, FuzzySelector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_17" Shortcuts="[d(hk)][d(ctrl)]s[u(ctrl)][u(hk)]" Version="V3" />
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 1920, 1020" FilePath="ZhuhaiKingsoftOfficeSoftw.WPSOffice2019_924xes6e8q1tw!WPSOffice2019" IconBase64="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" InformativeScreenshot="ebf7ed5e84b263d1aed3d2eeed87b60e.png" Selector="&lt;wnd app='wps.exe' appid='ZhuhaiKingsoftOfficeSoftw.WPSOffice2019_924xes6e8q1tw!WPSOffice2019' title='Document1 - WPS Office' /&gt;" Title="Document1 - WPS Office" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence sap2010:WorkflowViewState.IdRef="Sequence_23" />
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>
